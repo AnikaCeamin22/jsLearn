@@ -14,6 +14,10 @@ console.log(p, external);
 f();
 
 
-
+//Dynamic import: for ES11(2020)
+(async function(){
+    const { pi, run } = await import('./Export.js');
+    run();
+})();
 
 
