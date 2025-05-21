@@ -4,3 +4,10 @@ export default mod;
 export function func(){
     console.log(`I am External`);    
 }
+
+//async function
+export function run(){
+    setTimeout(()=>{
+        console.log("I am running");        
+    },2000);
+}
